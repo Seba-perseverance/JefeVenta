@@ -1,0 +1,15 @@
+.modal-header h1{
+    text-align: center;
+}
+.modal-content{
+    background-color: rgb(166, 159, 31);
+    text-align: center;
+}
+.modal-body{
+    font-weight: bold;
+}
+.modal-body div{
+    display: flex;
+    flex-direction: row;
+}
+

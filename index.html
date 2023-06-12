@@ -8,10 +8,25 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand">El Tunel</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
     <div class="container">
+        <div class="row">
+
+        </div>
         <div class="row">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 Launch static backdrop modal
@@ -23,40 +38,55 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Formulario para ingresar producto</h1>
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Formulario</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <form action="">
                                 <fieldset>
-                                    <legend>Complete los campos</legend>
-                                    <label for="">Codigo del producto</label>
-                                    <input type="text">
+                                    <legend>Datos de los productos</legend>
+                                    <div>
+                                        <label style="width: 150px;">Codigo del producto</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
-                                    <label for="">Nombre del producto</label>
-                                    <input type="text">
+                                    <div>
+                                        <label style="width: 150px;">Nombre del producto</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
-                                    <label for="">Descripción</label>
-                                    <input type="text">
+                                    <div>
+                                        <label style="width: 150px;">Descripción</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
-                                    <label for="">Categoría</label>
-                                    <input type="text">
+                                    <div>
+                                        <label style="width: 150px;">Categoría</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
-                                    <label for="">Precio</label>
-                                    <input type="text">
+                                    <div>
+                                        <label style="width: 150px;">Precio</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
-                                    <label for="">Inventario</label>
-                                    <input type="text">
+                                    <div>
+                                        <label style="width: 150px;">Inventario</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
-                                    <label for="">Codigo</label>
-                                    <input type="text">
+                                    <div>
+                                        <label style="width: 150px;">Código</label>
+                                        <input type="text">
+                                    </div>
                                     <br>
                                 </fieldset>
+
                             </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Ingresar</button>
                         </div>
                     </div>
                 </div>
